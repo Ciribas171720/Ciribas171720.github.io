@@ -174,8 +174,8 @@ body, html {
 
 .inspirational-quote {
     text-align: center;
-    margin-top: 20px; /* Ajusta la cantidad según sea necesario */
-    background-color: pink; /* Fondo rosa */
+    margin-top: 20px; 
+    background-color: pink; 
     padding: 150px;
     border-radius: 10px;
     margin-bottom: 200px;
@@ -312,21 +312,21 @@ body, html {
 
 .contact-section {
   padding: 3em;
-  margin: 0 auto; /* Centra la sección horizontalmente */
-  text-align: center; /* Alinea el contenido al centro */
-  max-width: 80vw; /* Ancho máximo para el contenido */
+  margin: 0 auto; 
+  text-align: center; 
+  max-width: 80vw; 
 }
 
 .container-contact {
-  margin: 0 auto; /* Centra el contenido de la sección horizontalmente */
+  margin: 0 auto; 
   display: flex;
   flex-direction: column;
-  align-items: center; /* Alinea los elementos hijos en el centro */
+  align-items: center; 
 }
 
 .form-group {
-  width: 100%; /* Ajusta el ancho de acuerdo al contenedor */
-  max-width: 400px; /* Ancho máximo para evitar que sea demasiado ancho */
+  width: 100%;
+  max-width: 400px; 
   margin-top: 2em;
 }
 .form-group textarea {

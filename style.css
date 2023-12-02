@@ -322,10 +322,9 @@ body, html {
   display: flex;
   flex-direction: column;
   align-items: center; 
-}
 
 .form-group {
-  width: 100%;
+  width: 100%; 
   max-width: 400px; 
   margin-top: 2em;
 }
@@ -542,4 +541,32 @@ body, html {
 }
 
 .sotial-networks i {
-  font-size: 1.5em;}
+  font-size: 1.5em;}}
+
+  @media only screen and (max-width: 768px) {
+    /* Estilos para dispositivos móviles */
+    body {
+      font-size: 14px; 
+    }
+  
+    .navbar {
+      padding: 1em; 
+    }
+  
+    .menu {
+      width: 100%; 
+      flex-direction: column;
+    }
+  
+    .main {
+      width: 100%;
+      height: auto; 
+  
+    .main img {
+      width: 100%; 
+      height: auto;
+    }
+  
+  
+  }
+  }
